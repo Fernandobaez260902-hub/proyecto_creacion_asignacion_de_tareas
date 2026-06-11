@@ -4,6 +4,8 @@ Link del Trello:
 https://trello.com/invite/b/6a29fb0b2180edc504542c79/ATTIb45bb4de7e0cbd0d7c5a09f545d92dee9C51A0D3/proyecto-cloud
 
 Despliegue en Domcloud
+
+
 El proyecto está desplegado en Domcloud, donde se utiliza Docker para contenerizar la aplicación y nginx para servir tanto la aplicación web como los archivos estáticos. El proceso de despliegue se ejecuta automáticamente cada vez que se realiza un commit a la rama main del repositorio. La aplicación se despliega en una cápsula separada para el backend y otra para la base de datos.
 
 Pasos para el despliegue:
